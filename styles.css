@@ -24,7 +24,7 @@ body {
 }
 
 .game-container {
-    width: 350px;
+    width: 320px;
     height: 500px;
     display: flex;
     flex-direction: column;
@@ -35,7 +35,7 @@ body {
 }
 
 .game-header {
-    padding: 15px;
+    padding: 10px;
     background-color: rgba(0, 0, 0, 0.2);
     border-bottom: 2px solid var(--glass-bg);
 }
@@ -59,8 +59,8 @@ body {
 .stats-container {
     display: flex;
     justify-content: space-between;
-    gap: 10px;
-    padding: 0 10px;
+    gap: 5px;
+    padding: 0 5px;
 }
 
 .stat-box {
@@ -93,7 +93,7 @@ body {
 .game-area {
     flex: 1;
     position: relative;
-    margin: 15px;
+    margin: 5px;
     border-radius: 8px;
     overflow: hidden;
     border: 2px solid transparent;
@@ -117,14 +117,14 @@ body {
 .controls {
     display: flex;
     justify-content: center;
-    gap: 10px;
-    padding: 15px;
+    gap: 15px;
+    padding: 5px;
     background-color: rgba(0, 0, 0, 0.2);
     border-top: 2px solid var(--glass-bg);
 }
 
 button {
-    padding: 10px 20px;
+    padding: 8px 16px;
     border: none;
     border-radius: 25px;
     font-weight: bold;
@@ -152,7 +152,7 @@ button:hover {
 }
 
 .difficulty {
-    padding: 12px;
+    padding: 8px;
     text-align: center;
     background-color: rgba(0, 0, 0, 0.2);
     border-top: 2px solid var(--glass-bg);
