@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <meta name="author" content="Salem Helwani" />
+    <meta
+      name="description"
+      content="Speed Click Challenge - A fast-paced reaction time game"
+    />
+    <meta
+      name="keywords"
+      content="game, reaction, click, challenge, Chrome, extension"
+    />
+    <meta name="theme-color" content="#2c3e50" />
+    <meta name="mobile-web-app-capable" content="yes" />
+
+    <title>Speed Click Challenge</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="game-container">
+      <div class="game-header">
+        <h1>Speed Click Challenge</h1>
+        <div class="instructions">
+          <p>⚡ Click balls fast! Faster clicks = higher score</p>
+        </div>
+        <div class="stats-container">
+          <div class="stat-box">
+            <span class="stat-label">Score:</span>
+            <span class="stat-value" id="score">0</span>
+          </div>
+          <div class="stat-box">
+            <span class="stat-label">High Score:</span>
+            <span class="stat-value" id="high-score">0</span>
+          </div>
+          <div class="stat-box">
+            <span class="stat-label">Time Left:</span>
+            <span class="stat-value" id="time-left">30</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="game-area" id="game-area">
+        <div class="ball" id="ball"></div>
+      </div>
+
+      <div class="controls">
+        <button id="start-btn">Start Game</button>
+        <button id="reset-btn">Reset</button>
+      </div>
+
+      <div class="difficulty">
+        <label for="difficulty-select">Difficulty:</label>
+        <select id="difficulty-select">
+          <option value="easy">Easy</option>
+          <option value="medium" selected>Medium</option>
+          <option value="hard">Hard</option>
+        </select>
+      </div>
+    </div>
+    <script src="game.js"></script>
+  </body>
+</html>
