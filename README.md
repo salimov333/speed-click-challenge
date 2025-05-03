@@ -75,7 +75,7 @@ This project is licensed under the **MIT License**.
 ## Support & Feedback ❤️
 
 Found a bug or have suggestions?  
-[Open an Issue](https://github.com/yourusername/speed-click-challenge/issues)
+[Open an Issue](https://github.com/salimov333/speed-click-challenge/issues)
 
 ---
 
